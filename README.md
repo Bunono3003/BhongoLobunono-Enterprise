@@ -75,7 +75,7 @@ After submission, the app automatically opens WhatsApp with a pre-filled order m
 
 ******🛠️ Admin Features******
 
-1. Receive Orders
+**1. Receive Orders**
 
 The administrator receives customer orders directly through:
 
@@ -88,7 +88,8 @@ New order request:
 Customer: John Doe
 Design: Traditional Wear #04
 Size: Medium
-2. Product Management (Phase 2)
+
+**2. Product Management (Phase 2)**
 
 Future admin capabilities may include:
 
@@ -97,15 +98,18 @@ Uploading product images
 Setting prices
 Managing categories
 Updating stock or availability
-🧱 System Architecture
-Frontend
+
+**🧱 System Architecture
+Frontend**
 
 Recommended technology:
 
 React Native ✅
 Flutter
 Native Android (Java/Kotlin)
-Why React Native?
+
+**Why React Native?**
+
 Faster development
 Cross-platform support
 Large community support
@@ -123,8 +127,8 @@ Option 2 — No Backend
 
 A lightweight version where the app only sends orders via WhatsApp.
 
-Storage
-Firebase Firestore
+**Storage
+Firebase Firestore**
 
 Stores:
 
@@ -132,14 +136,18 @@ Clothing designs
 Categories
 Style quiz data
 User favourites
-Firebase Storage
+
+**Firebase Storage**
 
 Stores:
 
 Clothing images
 Brand assets
-📱 Application Flow
-User Journey
+
+**📱 Application Flow**
+
+**User Journey**
+
 Launch App
    ↓
 View Categories
@@ -155,7 +163,8 @@ View Design Details
 Place Order
    ↓
 Redirect to WhatsApp
-🖼️ UI Screens
+
+**🖼️ UI Screens**
 
 The application includes the following screens:
 
@@ -166,12 +175,12 @@ Design Details Screen
 Style Matching Quiz
 Order Form
 Order Confirmation Screen
-💬 WhatsApp Order Integration
+
+**💬 WhatsApp Order Integration**
 
 Example React Native implementation:
 
 import { Linking } from "react-native";
-
 const adminNumber = "+27XXXXXXXXX";
 
 const sendOrder = (designName, customerName) => {
@@ -183,64 +192,101 @@ const sendOrder = (designName, customerName) => {
 
   Linking.openURL(url);
 };
+
 🧪 Tech Stack
-Technology	Purpose
-React Native	Mobile App Development
-Firebase	Backend & Database
-Firestore	Data Storage
-Firebase Storage	Image Storage
-React Navigation	Screen Navigation
-WhatsApp API / Linking	Order Communication
-📅 Development Timeline
+
+**Technology      	         Purpose**
+React Native	            Mobile App Development
+Firebase	                  Backend & Database
+Firestore	               Data Storage
+Firebase Storage           Image Storage
+React Navigation	         Screen Navigation
+WhatsApp API / Linking	   Order Communication
+
+**📅 Development Timeline
 Total Duration
 18 Days
 3 Hours Per Day
-54 Total Development Hours
-🚀 Week 1 — Planning & UI Development
-Day 1
+54 Total Development Hours**
+
+**🚀 Week 1 — Planning & UI Development**
+
+**Day 1**
+
 Requirements gathering
 Feature planning
 App structure setup
-Day 2
+
+**Day 2**
+
 UI wireframes
 Theme and branding
-Day 3
+
+**Day 3**
+
 Initialize React Native project
 Navigation setup
-Day 4
+
+**Day 4**
+
 Build clothing listing screens
-Day 5
+
+**Day 5**
+
 Build clothing detail pages
 ⚙️ Week 2 — Features & Backend
-Day 6
+
+**Day 6**
+
 Build style matching quiz
-Day 7
+
+**Day 7**
+
 Create order form
-Day 8
+
+**Day 8**
+
 WhatsApp integration
-Day 9
+
+**Day 9**
+
 Admin panel (optional)
-Day 10
+
+**Day 10**
+
 Firebase integration
 
-🎨 Week 3 — Testing & Deployment
+**🎨 Week 3 — Testing & Deployment**
 
-Day 11
+**Day 11**
+
 Testing and bug fixing
-Day 12
+
+**Day 12**
+
 UI improvements and animations
-Day 13
+
+**Day 13**
+
 Performance optimization
-Day 14
+
+**Day 14**
+
 Security improvements
-Day 15
+
+**Day 15**
+
 Upload real clothing data
-Day 16
+
+**Day 16**
+
 Prepare Google Play assets
-Day 17–18
+
+**Day 17–18**
+
 Publish app to Google Play Store
 
-🔐 Future Improvements
+**🔐 Future Improvements**
 
 Potential future features include:
 
