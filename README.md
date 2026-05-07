@@ -1,8 +1,8 @@
 # BhongoLobunono-Enterprise
 
-Project Overview
+## Project Overview
 
-The Custom Clothing Ordering App helps businesses showcase and manage different clothing collections while simplifying the customer ordering process.
+The **Custom Clothing Ordering App** helps businesses showcase and manage different clothing collections while simplifying the customer ordering process.
 
 The app supports:
 
@@ -14,14 +14,17 @@ Custom-designed outfits
 
 Customers can explore designs, save favourites, receive style recommendations, and send order requests directly to the administrator.
 
-🎯 Project Goals
+🎯 **Project Goals**
+
 Digitize clothing ordering for small and medium fashion enterprises
 Simplify customer communication
 Reduce development and operational costs
 Create an easy-to-use mobile shopping experience
 Allow businesses to receive orders without needing online payment systems
-✨ Features
-👤 Customer Features
+
+**✨Features**
+
+**👤 Customer Features**
 1. Browse Clothing Categories
 
 Customers can explore different clothing collections:
@@ -31,7 +34,8 @@ Formal Wear
 School Uniforms
 Religious Clothing
 Custom Designs
-2. Style Matching Quiz
+
+**2. Style Matching Quiz**
 
 Users answer a few questions about:
 
@@ -43,7 +47,7 @@ Clothing type
 
 The app then recommends designs that best suit their style.
 
-3. View Design Details
+**3. View Design Details**
 
 Each clothing design includes:
 
@@ -52,11 +56,12 @@ Price range
 Fabric type
 Available sizes
 Style description
-4. Save Favourites
+
+**4. Save Favourites**
 
 Users can bookmark designs to revisit later.
 
-5. Order Request System
+**5. Order Request System**
 
 Customers can place orders by entering:
 
@@ -68,7 +73,8 @@ Address (optional)
 
 After submission, the app automatically opens WhatsApp with a pre-filled order message sent to the administrator.
 
-🛠️ Admin Features
+******🛠️ Admin Features******
+
 1. Receive Orders
 
 The administrator receives customer orders directly through:
@@ -216,7 +222,9 @@ Day 9
 Admin panel (optional)
 Day 10
 Firebase integration
+
 🎨 Week 3 — Testing & Deployment
+
 Day 11
 Testing and bug fixing
 Day 12
@@ -231,6 +239,7 @@ Day 16
 Prepare Google Play assets
 Day 17–18
 Publish app to Google Play Store
+
 🔐 Future Improvements
 
 Potential future features include:
@@ -243,14 +252,18 @@ Tailor scheduling
 Delivery tracking
 Push notifications
 Ratings and reviews
+
 📦 Installation
+
 Clone Repository
 git clone https://github.com/your-username/custom-clothing-app.git
 Install Dependencies
 npm install
 Start Development Server
 npx react-native start
+
 ▶️ Run the App
+
 Android
 npx react-native run-android
 iOS
@@ -266,13 +279,16 @@ src/
 ├── firebase/
 ├── data/
 └── utils/
+
 👥 Target Users
+
 Fashion designers
 Tailors
 School uniform suppliers
 Religious clothing businesses
 Traditional clothing brands
 Small fashion enterprises
+
 📄 License
 
 This project is licensed under the MIT License.
@@ -290,6 +306,7 @@ For inquiries or collaborations:
 Business Name: Your Brand Name
 Phone: +27 XXX XXX XXXX
 Email: yourbusiness@email.com
-🌟 Final Vision
+
+**🌟 Final Vision**
 
 The goal of this project is to create a simple, affordable, and scalable clothing ordering platform that empowers fashion businesses to reach more customers digitally while keeping the ordering process easy and personal through direct communication channels like WhatsApp.
