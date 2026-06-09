@@ -302,7 +302,7 @@ Ratings and reviews
 📦 Installation
 
 Clone Repository
-git clone https://github.com/Bunono3003/custom-clothing-app.git
+git clone https://github.com/Bunono3003/BhongoLobunono-Enterprise
 Install Dependencies
 npm install
 Start Development Server
