@@ -6,7 +6,7 @@ function Home(){
     <div className="home-page">
       <header>
         <div className="logo-container"></div>
-        <div className="menu-bar"></div>
+        <div className="menu-bar"></div> 
 
       </header>
     </div>
