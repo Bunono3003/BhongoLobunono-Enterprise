@@ -1,0 +1,127 @@
+.landing-page {
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.site-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 24px 0;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 18px 26px;
+  background-color: #ffffff;
+  border-radius: 28px;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.08);
+  max-width: 460px;
+  width: auto;
+  margin: 0 auto;
+}
+
+.logo-badge {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-mark {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.logo-badge::after {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+  right: 8px;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.logo-line {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.14em;
+  color: #0a0a0a;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.logo-line--top {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.logo-line--bottom {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.welcome-message {
+  text-align: center;
+  padding: 80px 20px;
+  max-width: 640px;
+}
+
+.welcome-message h3 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #0a0a0a;
+}
+
+.welcome-message p {
+  margin: 20px auto 32px;
+  max-width: 520px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.shop-now-button {
+  display: flex;
+  justify-content: center;
+}
+
+.shop-now-button button {
+  width: 210px;
+  height: 50px;
+  padding: 0 24px;
+  background-color: #dfce16;
+  color: #000000;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.shop-now-button button::after {
+  content: ">";
+  margin-left: 10px;
+  font-size: 1.1rem;
+}
