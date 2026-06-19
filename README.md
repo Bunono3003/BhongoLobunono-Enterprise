@@ -211,80 +211,11 @@ Total Duration
 
 **🚀 Week 1 — Planning & UI Development**
 
-**Day 1**
 
-Requirements gathering
-Feature planning
-App structure setup
+**⚙️ Week 2 — Features & Backend**
 
-**Day 2**
-
-UI wireframes
-Theme and branding
-
-**Day 3**
-
-Initialize React Native project
-Navigation setup
-
-**Day 4**
-
-Build clothing listing screens
-
-**Day 5**
-
-Build clothing detail pages
-⚙️ Week 2 — Features & Backend
-
-**Day 6**
-
-Build style matching quiz
-
-**Day 7**
-
-Create order form
-
-**Day 8**
-
-WhatsApp integration
-
-**Day 9**
-
-Admin panel (optional)
-
-**Day 10**
-
-Firebase integration
 
 **🎨 Week 3 — Testing & Deployment**
-
-**Day 11**
-
-Testing and bug fixing
-
-**Day 12**
-
-UI improvements and animations
-
-**Day 13**
-
-Performance optimization
-
-**Day 14**
-
-Security improvements
-
-**Day 15**
-
-Upload real clothing data
-
-**Day 16**
-
-Prepare Google Play assets
-
-**Day 17–18**
-
-Publish app to Google Play Store
 
 **🔐 Future Improvements**
 
