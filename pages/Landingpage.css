@@ -29,7 +29,7 @@
 }
 
 .logo-badge {
-  position: relative;
+  /* position: relative; */
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -40,15 +40,18 @@
 }
 
 .logo-mark {
-  width: 26px;
-  height: 26px;
+  position: absolute;
+  width: 60px;
+  height: 57px;
+  margin-left: 13px;
   border-radius: 50%;
   background-color: #ffffff;
+  z-index: 2;
 }
 
 .logo-badge::after {
   content: "";
-  position: absolute;
+  position: relative;
   width: 22px;
   height: 22px;
   border-radius: 50%;
@@ -79,6 +82,16 @@
 .logo-line--bottom {
   font-size: 0.9rem;
   font-weight: 500;
+}
+
+.horizontal-line {
+  position: absolute;
+  width: 150px;
+  height: 3px;
+  margin-top: 2px;
+  margin-right: 10px;
+  background-color: #000000;
+  z-index: 3;
 }
 
 .welcome-message {

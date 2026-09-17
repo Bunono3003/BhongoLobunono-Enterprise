@@ -1,4 +1,5 @@
 import "./Landingpage.css";
+// import ShopButton from "../components/button";
 
 function Landing() {
   return (
@@ -8,9 +9,11 @@ function Landing() {
           <div className="logo-badge">
             <span className="logo-mark" />
           </div>
+          
           <div className="logo-text">
             <span className="logo-line logo-line--top">BHONGO</span>
             <span className="logo-line logo-line--bottom">LOBUNONO</span>
+            <div className = "horizontal-line"></div>
           </div>
         </div>
       </header>

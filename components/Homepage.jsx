@@ -1,4 +1,4 @@
-import designPreview from '../Design.png';
+const designPreview = '/Design.png';
 
 export default function Homepage() {
   const collections = [
