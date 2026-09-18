@@ -1,12 +1,15 @@
-import Homepage from "../components/Homepage";
-import Landing from "../pages/Landingpage";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Homepage from "./pages/Homepage";
+import Landing from "./pages/Landingpage";
 
 function App() {
   return (
-    <>
-      <Landing />
-      <Homepage />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/shop" element={<Homepage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
